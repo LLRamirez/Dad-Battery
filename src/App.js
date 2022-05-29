@@ -6,11 +6,13 @@ import About from './components/About';
 import GetQuote from './components/GetQuote';
 import Contact from './components/Contact';
 import 'bootstrap/dist/css/bootstrap.min.css';
+import NavBar from './components/NavBar';
 
 function App() {
   return (
   <section className="App">
-      <header className="App-header">
+<NavBar/>
+  
       <p className="text-3xl font-bold color-white">
         Rad Power Battery Repair
         </p>
@@ -22,7 +24,7 @@ function App() {
          <GetQuote/> 
          <Contact/>
          </div>
-      </header>
+  
     </section>
   );
 }
