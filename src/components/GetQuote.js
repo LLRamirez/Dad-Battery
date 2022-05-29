@@ -2,7 +2,7 @@ import React from 'react';
 
 const GetQuote = () => {
     return(
-        <div className='gqContainer'>
+        <div className='color-purple'>
             <p>Get q form</p>
         </div>
     );
