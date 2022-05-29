@@ -7,20 +7,29 @@ import GetQuote from './components/GetQuote';
 import Contact from './components/Contact';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import NavBar from './components/NavBar';
+import Services from './components/Services';
 
 function App() {
   return (
   <section className="App">
 <NavBar/>
   
-      <p className="text-3xl font-bold color-white">
-        Rad Power Battery Repair
-        </p>
+      
                <div className='containER'>
-        <div className='picContainer'>
+      <div>
+      <p className="twhite">
+        Your Trusted Repair Experts
+        </p>
+      </div>
+
          <MainGallery/>
-         </div> 
+        
          <About/> 
+         <div className='serviceSection'>
+         <Services/>
+         <Services/>
+         
+         </div>
          <GetQuote/> 
          <Contact/>
          </div>

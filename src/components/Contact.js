@@ -2,9 +2,9 @@ import React from 'react';
 
 const Contact = () => {
     return(
-        <div className='flex flex-row'>
-            <p>Made by LLR</p>
+        <div className='contactText'>
             <p>All rights reserved</p>
+            <p>Made by LLR</p>
         </div>
     );
 

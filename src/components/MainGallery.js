@@ -24,9 +24,11 @@ const MainGallery = props => {
       );
 
     return (
+      <div className='picContainer'>
         <div className="flex justify-center">
             {slider}
         </div>
+      </div>
     );
 }
 

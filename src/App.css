@@ -32,10 +32,36 @@
 .picContainer{
   width: 100%;
   height: 100%;
-
+  padding-bottom: 2rem;
 }
 
+.twhite {
+  color: white;
+}
 
+.contactText {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  color: white;
+  padding: 1rem;
+}
+
+.aboutContainer{
+  padding: 10px;
+  color: white;
+}
+
+.serviceSection {
+  display: flex;
+  flex-direction: row; 
+  padding: 1rem;
+  justify-content: space-evenly;
+}
+
+.getQuoteContainer{
+ padding: 2rem;
+}
 
 @keyframes App-logo-spin {
   from {
