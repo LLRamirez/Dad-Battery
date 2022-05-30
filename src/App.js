@@ -19,7 +19,7 @@ function App() {
                <div className='containER'>
       <div>
       <p className="twhite">
-        Your Trusted Ebike Repair Experts
+        Trusted Ebike Repair Experts
         </p>
       </div>
 

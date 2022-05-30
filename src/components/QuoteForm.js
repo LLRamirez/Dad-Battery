@@ -11,16 +11,14 @@ const QuoteForm = () => {
         <Form>
 
             <InputGroup className="mb-3">
-            <InputGroup.Text>First and last name</InputGroup.Text>
-            <FormControl aria-label="First name" />
-            <FormControl aria-label="Last name" />
+            <InputGroup.Text>Name</InputGroup.Text>
+            <FormControl aria-label="First & Last name" />
             </InputGroup>
 
             <Form.Group className="inputLabel" controlId="formBasicEmail">
                 <Form.Label className="labelTitle">Email address</Form.Label>
                 <Form.Control type="email" placeholder="Enter email" />
                 <Form.Text className="text-muted">
-                ( FYI: We'll never share your email with anyone else. )
                 </Form.Text>
             </Form.Group>
 

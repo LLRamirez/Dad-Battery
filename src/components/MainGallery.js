@@ -14,7 +14,8 @@ const MainGallery = props => {
           cancelOnInteraction={false} // should stop playing on user interaction
           interval={6000}
         >
-          
+          <div data-src="https://electrek.co/wp-content/uploads/sites/3/2021/07/radrover-6-plus-header.png?w=1600" />
+          <div data-src="https://electrek.co/wp-content/uploads/sites/3/2022/02/radrunner2-header.jpg?quality=82&strip=all&w=1600" />
           <div data-src="./bat1.jpg" />
           <div data-src="./bat2.jpg" />
           <div data-src="./bat3.jpg" />
