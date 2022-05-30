@@ -18,7 +18,7 @@ function App() {
                <div className='containER'>
       <div>
       <p className="twhite">
-        Rad Power Battery Repair Experts
+        Your Trusted Ebike Repair Experts
         </p>
       </div>
 
@@ -27,9 +27,11 @@ function App() {
          <About/> 
          <div className='serviceSection'>
          <Carousel />
-         
-         
          </div>
+         <div className='infoContainer'>
+         <p>Does your battery not power on at all? No worries! Our battery rebuild service will bring new life to your eBike and is cost efficient.  Send your tired or defective battery to us and we will take care of the rest. In a short time you will be back in the saddle with that eGrin everyone is talking about.</p>
+         </div>
+
          <GetQuote/> 
          <Contact/>
          </div>

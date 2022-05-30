@@ -6,9 +6,9 @@ import { Nav, Navbar, NavDropdown } from "react-bootstrap";
 import "bootstrap/dist/css/bootstrap.min.css";
 
 const NavBar = () => {
-    return(
-        <Navbar className='navBarContainer' collapseOnSelect expand="lg" bg="dark" variant="dark">
-        <Navbar.Brand href="#home">
+    return(    
+  <Navbar className='navBarContainer' collapseOnSelect expand="lg" bg="#90DC7C">
+        <Navbar.Brand className='navTitle' href="#home">
         
           Rad Pwr EBike Repair
         </Navbar.Brand>

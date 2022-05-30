@@ -46,6 +46,16 @@
   justify-content: space-between;
   color: white;
   padding: 1rem;
+  font-size: 12px;
+}
+
+.term1 {
+  font-size: 16px;
+}
+
+.term2 {
+  text-decoration: none;
+  color: white;
 }
 
 .aboutContainer{
@@ -66,6 +76,9 @@
 
 .navBarContainer {
   padding-left: 10px;
+  background-color: #90DC7C;
+  color: 162b6f;
+  font-weight: 600;
 }
 
 .termsContainer{
@@ -80,6 +93,48 @@
 
 .termsText1 {
   text-align: left;
+}
+
+.infoContainer{
+  color: white;
+  padding: 10px;
+  font-weight: 400;
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+
+.getTitle {
+  color: white;
+  padding-bottom: 1rem;
+  padding-top: 1rem;
+  text-decoration: underline;
+  -webkit-text-decoration-color: #90DC7C; /* Safari */  
+  text-decoration-color: #90DC7C;
+}
+
+.iconImg {
+  height: 64px;
+  width: 64px;
+}
+
+.about1 {
+  font-weight: 700;
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+
+.accordin-header, button {
+ background-color: #90DC7C;
+ color: 162b6f;
+}
+
+.imgContainer{
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.navTitle {
+  color: #162b6f;
 }
 
 
