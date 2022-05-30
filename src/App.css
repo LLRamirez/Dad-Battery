@@ -3,6 +3,10 @@
   background-color: #162b6f;
 }
 
+body {
+  font-family: 'Staatliches', cursive !important;
+}
+
 .App-logo {
   height: 40vmin;
   pointer-events: none;
@@ -145,9 +149,9 @@ padding-top: 2rem;
     padding-right: 1rem;
 }
 
-.accordin-header, button {
+.accordHeader button {
  background-color: #90DC7C;
- color: 162b6f;
+ color: #162b6f;
 }
 
 .imgContainer{

@@ -9,7 +9,7 @@ const GetQuote = () => {
         <h1 className="getTitle">Get in Touch</h1>
            <Accordion>
             <Accordion.Item eventKey="0">
-                <Accordion.Header>Request a Quote</Accordion.Header>
+                <Accordion.Header className='accordHeader'>Request a Quote</Accordion.Header>
                 <Accordion.Body>
                 <QuoteForm/>
                 </Accordion.Body>
