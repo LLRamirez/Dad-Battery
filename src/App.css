@@ -37,6 +37,7 @@
 
 .twhite {
   color: white;
+  padding-top: 1rem;
 }
 
 .contactText {
@@ -62,6 +63,25 @@
 .getQuoteContainer{
  padding: 2rem;
 }
+
+.navBarContainer {
+  padding-left: 10px;
+}
+
+.termsContainer{
+  color: white;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.termsText {
+  margin-bottom: 0;
+}
+
+.termsText1 {
+  text-align: left;
+}
+
 
 @keyframes App-logo-spin {
   from {

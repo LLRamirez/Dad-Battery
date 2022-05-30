@@ -6,7 +6,7 @@ const GetQuote = () => {
         <div className='getQuoteContainer'>
            <Accordion>
             <Accordion.Item eventKey="0">
-                <Accordion.Header>Get a Quote</Accordion.Header>
+                <Accordion.Header>Request a Quote</Accordion.Header>
                 <Accordion.Body>
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
                 tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim

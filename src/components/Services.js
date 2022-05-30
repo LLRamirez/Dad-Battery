@@ -5,7 +5,7 @@ import { Card, ListGroup, ListGroupItem } from "react-bootstrap";
 const Services = () => {
     return(
         <div className='serviceContainer'>
-            <Card style={{ width: '18rem' }}>
+            <Card style={{ width: '18rem'}}>
   <Card.Img variant="top" src="./bat10.jpg" />
   <Card.Body>
     <Card.Title>Card Title</Card.Title>
@@ -13,15 +13,6 @@ const Services = () => {
       Some quick example text to build on the card title and make up the bulk of
       the card's content.
     </Card.Text>
-  </Card.Body>
-  <ListGroup className="list-group-flush">
-    <ListGroupItem>Cras justo odio</ListGroupItem>
-    <ListGroupItem>Dapibus ac facilisis in</ListGroupItem>
-    <ListGroupItem>Vestibulum at eros</ListGroupItem>
-  </ListGroup>
-  <Card.Body>
-    <Card.Link href="#">Card Link</Card.Link>
-    <Card.Link href="#">Another Link</Card.Link>
   </Card.Body>
 </Card>
         </div>

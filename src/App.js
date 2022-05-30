@@ -1,5 +1,4 @@
 import React from 'react';
-import logo from './logo.svg';
 import './App.css';
 import MainGallery from './components/MainGallery';
 import About from './components/About';
@@ -8,6 +7,7 @@ import Contact from './components/Contact';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import NavBar from './components/NavBar';
 import Services from './components/Services';
+import Carousel from './components/Carousel';
 
 function App() {
   return (
@@ -18,7 +18,7 @@ function App() {
                <div className='containER'>
       <div>
       <p className="twhite">
-        Your Trusted Repair Experts
+        Rad Power Battery Repair Experts
         </p>
       </div>
 
@@ -26,8 +26,8 @@ function App() {
         
          <About/> 
          <div className='serviceSection'>
-         <Services/>
-         <Services/>
+         <Carousel />
+         
          
          </div>
          <GetQuote/> 
