@@ -14,8 +14,14 @@ const About = () => {
             {/* <Button variant="primary">Primary</Button> */}
             
             <div className='imgContainer'>
-                <img className='iconImg' src='./repair.png'/>
-                <img className='iconImg' src='./award.png' />
+                <div>
+                    <img className='iconImg' src='./support.png'/>
+                    <p className='iconText'>Quick Repairs</p>
+                </div>
+                <div>
+                    <img className='iconImg' src='./award.png' />
+                    <p className='iconText'>Top Quality</p>
+                </div>
             </div>
   
         </div>

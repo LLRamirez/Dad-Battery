@@ -11,8 +11,8 @@ const Contact = () => {
             alt="First slide"
           />
           <Carousel.Caption>
-            <h3>First slide label</h3>
-            <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
+            <h3>Ebike Battery</h3>
+            <p>Refurbished like NEW</p>
           </Carousel.Caption>
         </Carousel.Item>
         <Carousel.Item>
@@ -23,8 +23,8 @@ const Contact = () => {
           />
       
           <Carousel.Caption>
-            <h3>Second slide label</h3>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+            <h3>Battery Life from 8 to 10hrs</h3>
+            <p>Ebike Battery Upgrade</p>
           </Carousel.Caption>
         </Carousel.Item>
         <Carousel.Item>
@@ -35,10 +35,36 @@ const Contact = () => {
           />
       
           <Carousel.Caption>
-            <h3>Third slide label</h3>
-            <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p>
+            <h3>Battery close up</h3>
+            <p>Furbuished like New.</p>
           </Carousel.Caption>
         </Carousel.Item>
+        <Carousel.Item>
+          <img
+            className="d-block w-100"
+            src="./bat16.jpg"
+            alt="Third slide"
+          />
+      
+          <Carousel.Caption>
+            <h3>Rad Power Ebike</h3>
+            <p>Repairs and upgrades.</p>
+          </Carousel.Caption>
+        </Carousel.Item>
+
+        <Carousel.Item>
+          <img
+            className="d-block w-100"
+            src="./bat17.jpg"
+            alt="Third slide"
+          />
+      
+          <Carousel.Caption>
+            <h3>Rad Power Ebike</h3>
+            <p>From 8 to 10 hours of battery life</p>
+          </Carousel.Caption>
+        </Carousel.Item>
+
       </Carousel>
     );
 

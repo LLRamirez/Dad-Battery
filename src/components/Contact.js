@@ -9,7 +9,7 @@ const Contact = () => {
                     <p className='termsText1'>Contact us</p>
                 </div>
                 <div>              
-                    <a className='term2' href="about">Back to top ^</a>
+                    <a className='term2' href="#about">Back to top ^</a>
                 </div>
             </div>
             <div className='contactText'>

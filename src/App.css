@@ -56,6 +56,7 @@
 .term2 {
   text-decoration: none;
   color: white;
+  font-weight: 700;
 }
 
 .aboutContainer{
@@ -87,12 +88,20 @@
   justify-content: space-evenly;
 }
 
+.iconText {
+  font-weight: 700;
+  line-height: 2;
+  letter-spacing: 3px;
+}
+
 .termsText {
   margin-bottom: 0;
+  
 }
 
 .termsText1 {
   text-align: left;
+  font-weight: 600;
 }
 
 .infoContainer{
@@ -101,6 +110,19 @@
   font-weight: 400;
   padding-left: 1rem;
   padding-right: 1rem;
+}
+
+.labelTitle{ 
+  font-weight: 700;
+}
+
+.submitBtn {
+padding-top: 2rem;
+}
+
+.inputLabel {
+  text-align: left;
+  padding-top: 1rem;
 }
 
 .getTitle {
