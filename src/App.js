@@ -30,7 +30,7 @@ function App() {
          <Carousel />
          </div>
          <div className='infoContainer'>
-         <p>Does your battery not power on? No worries! Our battery repair service will bring new life to your eBike and is cost efficient.  Send your defective battery to us and we will take care of the rest. You will be back on the saddle with that eGrin everyone is talking about in no time.</p>
+         <p className='about2'>Does your battery not power on? No worries! Our battery repair service will bring new life to your eBike and is cost efficient.  Send your defective battery to us and we will take care of the rest. You will be back on the saddle with that eGrin everyone is talking about in no time.</p>
          </div>
 
          <GetQuote/> 

@@ -20,7 +20,7 @@ const QuoteForm = () => {
                 <Form.Label className="labelTitle">Email address</Form.Label>
                 <Form.Control type="email" placeholder="Enter email" />
                 <Form.Text className="text-muted">
-                (FYI: We'll never share your email with anyone else.)
+                ( FYI: We'll never share your email with anyone else. )
                 </Form.Text>
             </Form.Group>
 

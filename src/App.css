@@ -42,6 +42,7 @@ body {
 .twhite {
   color: white;
   padding-top: 1rem;
+  letter-spacing: 3px;
 }
 
 .contactText {
@@ -55,6 +56,7 @@ body {
 
 .term1 {
   font-size: 16px;
+  
 }
 
 .term2 {
@@ -89,7 +91,7 @@ body {
 .termsContainer{
   color: white;
   display: flex;
-  justify-content: space-evenly;
+  justify-content: space-around;
 }
 
 .iconText {
@@ -131,11 +133,15 @@ padding-top: 2rem;
 
 .getTitle {
   color: white;
-  padding-bottom: 1rem;
+  padding-bottom: .5rem;
   padding-top: 1rem;
-  text-decoration: underline;
-  -webkit-text-decoration-color: #90DC7C; /* Safari */  
-  text-decoration-color: #90DC7C;
+  border-bottom-style: solid;
+  border-bottom-color: #90DC7C;
+  font-size: 40px;
+}
+
+.about2 {
+  font-size: 26px;
 }
 
 .iconImg {
@@ -161,6 +167,7 @@ padding-top: 2rem;
 
 .navTitle {
   color: #162b6f;
+  text-shadow: 2px 2px white;
 }
 
 
