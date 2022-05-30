@@ -4,6 +4,7 @@ import Form from 'react-bootstrap/Form';
 import { FormControl } from 'react-bootstrap';
 import UploadBtn from '../components/UploadBtn';
 import Button from 'react-bootstrap/Button';
+import PlacesAutocomplete from '../components/PlacesAutocomplete';
 
 
 const QuoteForm = () => {
@@ -30,7 +31,9 @@ const QuoteForm = () => {
             </Form.Group>
 
             {/* <UploadBtn/> */}
-
+            <div className='autoAddyContainer'>
+                <PlacesAutocomplete/>
+            </div>
             <div className="submitBtn">
                 <Button variant="primary" type="submit">
                     Submit
