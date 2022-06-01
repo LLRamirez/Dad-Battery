@@ -59,7 +59,7 @@ import {
             value={value}
             onChange={handleInput}
             disabled={!ready}
-            placeholder="Enter Shipping Address"
+            placeholder="Shipping Address"
           />
           <ComboboxPopover>
             <ComboboxList>{status === "OK" && renderSuggestions()}</ComboboxList>

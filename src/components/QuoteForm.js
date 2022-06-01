@@ -30,7 +30,7 @@ const QuoteForm = () => {
                 <Form.Control placeholder="Describe Battery Type + Model" />
             </Form.Group>
 
-            {/* <UploadBtn/> */}
+            <UploadBtn/>
             <div className='autoAddyContainer'>
                 <PlacesAutocomplete/>
             </div>
