@@ -125,6 +125,19 @@ body {
   font-weight: 700;
 }
 
+.labelTitle{ 
+  font-weight: 700;
+  text-align: left;
+}
+
+.uploadForm{
+  text-align: left;
+}
+
+.upBtnContainer{
+  margin-top: 1rem;
+}
+
 .submitBtn {
 padding-top: 2rem;
 }
@@ -183,6 +196,11 @@ padding-top: 2rem;
   text-shadow: 2px 2px white;
   letter-spacing: 3px;
   padding-left: 1rem;
+}
+
+.form-group{
+  display: flex;
+  flex-direction: column;
 }
 
 

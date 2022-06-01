@@ -1,4 +1,5 @@
 import React from 'react';
+import Form from 'react-bootstrap/Form';
 
 export default class UploadBtn extends React.Component {
   fileObj = [];
@@ -25,15 +26,18 @@ export default class UploadBtn extends React.Component {
   render() {
       return (
           <form>
+          <Form.Label class="labelTitleB">Battery Image</Form.Label>
+              <div className="form-group">
+                  <input type="file" className="form-control" onChange={this.uploadMultipleFiles} multiple />
+              </div>
               <div className="form-group multi-preview">
                   {(this.fileArray || []).map(url => (
                       <img src={url} alt="..." />
                   ))}
               </div>
-              <div className="form-group">
-                  <input type="file" className="form-control" onChange={this.uploadMultipleFiles} multiple />
+              <div className='upBtnContainer'>
+                <button type="button" className="btn btn-danger btn-block" onClick={this.uploadFiles}>Upload</button>
               </div>
-              <button type="button" className="btn btn-danger btn-block" onClick={this.uploadFiles}>Upload</button>
           </form>
       )
   }
